@@ -5,8 +5,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .manrope-5 {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+      }
+      .manrope-6 {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+      }
+      .manrope-8 {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+      }
+    </style>
   </head>
   <body>
-    <main></main>
+    <main class="w-4/5 mx-auto manrope mt-10">
+      <!-- header section -->
+      <section class="lg:flex lg:justify-between">
+        <div>
+          <h1 class="text-7xl font-extrabold manrope-8 mb-6">
+            It's good <br />
+            tea time at The Tea House
+          </h1>
+          <p class="manrope-5 text-[18px] mb-5">
+            Tea and Botanical Solutions Supplier Give <br />
+            Optimum Satisfaction To Your Taste Buds.
+          </p>
+          <button
+            class="py-3 px-7 bg-gradient-to-r from-[#FF0000] to-[#FF8938] rounded-xl text-white"
+          >
+            Explore More
+            <i class="-rotate-45 fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="relative">
+          <img src="images/banner.png" alt="" />
+          <div
+            class="flex items-center rounded-xl shadow-2xl justify-center p-4 gap-2 w-[200px] h-[100] bg-white absolute lg:bottom-6 bottom-5 left-9"
+          >
+            <div><i class="text-[#FFC850] text-2xl fa-solid fa-star"></i></div>
+            <div>
+              <h1 class="manrope-8">5.00</h1>
+              <p class="manrope-6 text-xs">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner section -->
+      <section>
+        <div class="text-center">
+          <h1 class="manrope-8 text-5xl mt-20 mb-9">Our Featured Products</h1>
+          <p class="manrope-5 text-[16px] mb-9">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <div class="lg:grid lg:grid-cols-4 lg:gap-9 grid gap-6 justify-center">
+          <!-- tea-1 -->
+          <div>
+            <div
+              class="bg-gradient-to-r from-[#F4F4F4] to-[#f4f4f4a8] w-[267px] h-[351px] p-7 text-center rounded-xl"
+            >
+              <img
+                class="border-2 border-stone-200 border-dashed mx-auto"
+                src="images/tea-1.png"
+                alt=""
+              />
+              <h1 class="manrope-8 text-2xl mt-2">Milk Tea</h1>
+              <p class="manrope-5 text-[16px]">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- tea-2 -->
+          <div>
+            <div
+              class="bg-gradient-to-r from-[#F4F4F4] to-[#f4f4f4a8] w-[267px] h-[351px] p-7 text-center rounded-xl"
+            >
+              <img
+                class="border-2 border-stone-200 border-dashed mx-auto"
+                src="images/tea-2.png"
+                alt=""
+              />
+              <h1 class="manrope-8 text-2xl mt-2">Milk Tea</h1>
+              <p class="manrope-5 text-[16px]">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- tea-3 -->
+          <div>
+            <div
+              class="bg-gradient-to-r from-[#F4F4F4] to-[#f4f4f4a8] w-[267px] h-[351px] p-7 text-center rounded-xl"
+            >
+              <img
+                class="border-2 border-stone-200 border-dashed mx-auto"
+                src="images/tea-3.png"
+                alt=""
+              />
+              <h1 class="manrope-8 text-2xl mt-2">Milk Tea</h1>
+              <p class="manrope-5 text-[16px]">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- tea-4 -->
+          <div>
+            <div
+              class="bg-gradient-to-r from-[#F4F4F4] to-[#f4f4f4a8] w-[267px] h-[351px] p-7 text-center rounded-xl"
+            >
+              <img
+                class="border-2 border-stone-200 border-dashed mx-auto"
+                src="images/tea-4.png"
+                alt=""
+              />
+              <h1 class="manrope-8 text-2xl mt-2">Milk Tea</h1>
+              <p class="manrope-5 text-[16px]">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
